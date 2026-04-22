@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+build/
+*.egg-info/data/example_data.pth
+data/
+data/
+data/example_data.pth
