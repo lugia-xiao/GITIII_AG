@@ -1,12 +1,7 @@
-'''
-GITIII_AG
+# gitiii_ag/data/__init__.py
 
-Towards systematical investigation of single-cell-level pathway-based
-cell-cell interaction with GITIII-AG: Integrating scRNA-seq and image-based ST,
-interpreting graph transformer, and pathway selection
+"""
+This package contains data files used by the gitiii_ag package.
+"""
 
-'''
-
-from . import estimator, subtyping_analyzer, network_analyzer, spatial_visualizer, pathway_analyzer, pathway_analyzer_multi_samples, maxfuse_impute
-
-__all__ = ['estimator', 'subtyping_analyzer', 'network_analyzer', 'spatial_visualizer', 'pathway_analyzer', 'pathway_analyzer_multi_samples', 'maxfuse_impute']
+__version__ = "0.1.0"
